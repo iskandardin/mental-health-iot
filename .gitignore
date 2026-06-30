@@ -1,0 +1,47 @@
+# Firmware
+firmware/.pio/
+firmware/.vscode/
+firmware/build/
+firmware/.DS_Store
+firmware/*.pyc
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/dist/
+backend/build/
+backend/logs/
+backend/.DS_Store
+backend/package-lock.json
+
+# Mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/dist/
+mobile/.DS_Store
+mobile/package-lock.json
+mobile/.env
+mobile/yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Firebase
+.firebaserc
